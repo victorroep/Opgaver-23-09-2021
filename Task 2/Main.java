@@ -10,7 +10,10 @@ class Main {
   }
 
   public static boolean iAmHappy() {
-    // fill out what is missing here:
-    return true;
+    if (happy) {
+      return true;
+    } else {
+      return false;
+    }
   }
 }
